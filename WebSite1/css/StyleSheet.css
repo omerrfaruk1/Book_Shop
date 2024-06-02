@@ -1,0 +1,10 @@
+﻿:root {
+    --bluetrans: #0000ff21;
+    --yellowTrans: yellow;
+}
+
+.img-content-place {
+    min-height: calc(100vh - 76px);
+    background: linear-gradient(var(--bluetrans), #0089ff45), url(../img/kitap.png) center / cover fixed no-repeat;
+    position: relative;
+}
